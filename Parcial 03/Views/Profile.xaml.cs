@@ -10,17 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Parcial_03.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class RegisterPage : ContentPage
+    public partial class Profile : ContentPage
     {
-        public RegisterPage()
+        public Profile()
         {
             InitializeComponent();
-        }
-
-        private void RegistroCompleto(object sender, EventArgs e)
-        {
-            DisplayAlert("Registro", "Haz confirmado tu registro", "ok");
-            Navigation.PushAsync(new LoginPage());
         }
     }
 }

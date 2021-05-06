@@ -23,5 +23,15 @@ namespace Parcial_03.Views
         {
             Navigation.PushAsync(new RegisterPage());
         }
+
+        private void Forgot_pass(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ForgotPass());
+        }
+
+        private void Ingresar(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Profile());
+        }
     }
 }
