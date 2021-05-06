@@ -30,7 +30,7 @@
 
         <StackLayout Grid.Row="3" HorizontalOptions="Center">
             <Label Text ="Iniciar Sesión" TextColor="#40375c" HorizontalTextAlignment="Center" FontSize="Large" WidthRequest="300"/>
-                <Image Source="Profile.png" HeightRequest="25" WidthRequest="25" TranslationY="50" />
+                
 
 
         </StackLayout>
